@@ -37,7 +37,7 @@ def addStudent(request):
         data = request.body.decode('utf-8')
         req = json.loads(data)
         serializer = AddStudentSerializer(data={'Name': req['Name'],'Age':req['Age'],'RollNumber':req['RollNumber']})
-        print(serializer)
+        # print(serializer)
         if serializer.is_valid():
             serializer.save()
             return JsonResponse({"Info":"Data Inserted Successfully"}, status=status.HTTP_200_OK)
@@ -51,7 +51,7 @@ def updateStudent(request):
         data = request.body.decode('utf-8')
         req = json.loads(data)
         student_data = Student.objects.all().filter(Name=req['Name']).update(Age=req['Age'])
-        print(student_data)
+        # print(student_data)
         if student_data > 0:
             return JsonResponse({"Info":"Data Updated Successfully"}, status=status.HTTP_200_OK)
         else:
