@@ -4,3 +4,5 @@
 *.pyc
 mongo_project/settings.py
 mongo_project/__pycache__
+mongo_project/__pycache__/settings.cpython-37.pyc
+student/__pycache__/views.cpython-37.pyc
