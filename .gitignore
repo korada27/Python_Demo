@@ -1,3 +1,4 @@
 #ignore files to push into GITHUB
 /mongoproject/mongoproject/settings
 /mongoproject/myapp.log
+mongo_project/settings.py
