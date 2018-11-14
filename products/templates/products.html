@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Products </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+    }
+    
+    
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    
+    .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+    
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    
+    .row.content {
+        height: 677px
+    }
+    
+    
+    /* Set gray background color and 100% height */
+    
+    .sidenav {
+        padding-top: 20px;
+        background-color: #f1f1f1;
+        height: 100%;
+    }
+    
+    
+    /* Set black background color, white text and some padding */
+    
+    footer {
+        background-color: #555;
+        color: white;
+        padding: 15px;
+    }
+    
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    
+    @media screen and (max-width: 767px) {
+        .sidenav {
+            height: auto;
+            padding: 15px;
+        }
+        .row.content {
+            height: auto;
+        }
+    }
+    
+    </style>
+</head>
+
+<body>
+    <div style="height:100%">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#myNavbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a
+                        class="navbar-brand" href="#">Logo</a></div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>&nbsp;Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid text-center" style="overflow: auto">
+            <div class="row content">
+                <div class="col-sm-2 sidenav">
+                    <div class="well">
+                        <p>Left Nav Bar</p>
+                    </div>
+                    <p><a href="#">Link</a></p>
+                    <p><a href="#">Link</a></p>
+                    <p><a href="#">Link</a></p>
+                </div>
+                <div class="col-sm-8 text-left" style="overflow:auto">
+                    <h1>Welcome to Python : DJango</h1>
+                    <p>Python is a general-purpose language. It has wide range of applications from Web development
+                        (like: Django and Bottle), scientific and mathematical computing (Orange, SymPy, NumPy) to
+                        desktop graphical user Interfaces (Pygame, Panda3D).
+
+                        The syntax of the language is clean and length of the code is relatively short. It's fun to
+                        work in Python because it allows you to think about the problem rather than focusing on the
+                        syntax.</p>
+                    <hr>
+                    <h3>History of Python</h3>
+                    <p>Python is a fairly old language created by Guido Van Rossum. The design began in the late 1980s
+                        and was first released in February 1991.</p>
+                    <h3>Features</h3>
+                    <p><strong>Easy-to-learn</strong> − Python has few keywords, simple structure, and a clearly
+                        defined syntax. This
+                        allows the student to pick up the language quickly.
+                        <br><br>
+                        <strong>Easy-to-read</strong> − Python code is more clearly defined and visible to the eyes.
+                        <br><br>
+                        <strong>Easy-to-maintain</strong> − Python's source code is fairly easy-to-maintain.
+                        <br><br>
+                        <strong>A broad standard library</strong> − Python's bulk of the library is very portable and
+                        cross-platform
+                        compatible on UNIX, Windows, and Macintosh.
+                        <br><br>
+                        <strong>Interactive Mode</strong> − Python has support for an interactive mode which allows
+                        interactive testing
+                        and debugging of snippets of code.
+                        <br><br>
+                        <strong>Portable</strong> − Python can run on a wide variety of hardware platforms and has the
+                        same interface on
+                        all platforms.
+                        <br><br>
+                        <strong>Extendable</strong> − You can add low-level modules to the Python interpreter. These
+                        modules enable
+                        programmers to add to or customize their tools to be more efficient.
+                        <br><br>
+                        <strong>Databases</strong> − Python provides interfaces to all major commercial databases.
+                        <br><br>
+                        <strong>GUI Programming</strong> − Python supports GUI applications that can be created and
+                        ported to many
+                        system calls, libraries and windows systems, such as Windows MFC, Macintosh, and the X Window
+                        system of Unix.
+                        <br>
+                        <strong>Scalable</strong> − Python provides a better structure and support for large programs
+                        than shell
+                        scripting.</p>
+                </div>
+                <div class="col-sm-2 sidenav">
+                    <div class="well">
+                        <p>Right Nav Bar - 1</p>
+                    </div>
+                    <div class="well">
+                        <p>Right Nav Bar - 2</p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- <div class="footer"><p>Footer</p></div>-->
+        <footer style=" position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;" class="container-fluid text-center">
+            <p>Footer Text</p>
+        </footer>
+    </div>
+</body>
+
+</html>
+<!-- <div class="jumbotron"><h1>Python Demo</h1><p>This is the Basic Python Demo App </p></div><ul> {
+        % for product in products %
+    }
+    
+    <a><li> {
+        {
+            product.fields.description
+        }
+    }
+    
+    </li></a> {
+        % endfor %
+    }
+    
+    </ul><h1> {
+        {
+            products
+        }
+    }
+    
+    </h1><a>New Product</a>-->
