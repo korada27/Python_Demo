@@ -1,0 +1,3 @@
+#ignore files to push into GITHUB
+/mongoproject/mongoproject/settings
+/mongoproject/myapp.log
