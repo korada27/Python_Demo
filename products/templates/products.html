@@ -91,12 +91,14 @@
         <div class="container-fluid text-center" style="overflow: auto">
             <div class="row content">
                 <div class="col-sm-2 sidenav">
+                        {% for product in products %}
                     <div class="well">
-                        <p>Left Nav Bar</p>
+                        <p>{ product }</p>
                     </div>
+                    <!-- <p><a href="#">Link</a></p>
                     <p><a href="#">Link</a></p>
-                    <p><a href="#">Link</a></p>
-                    <p><a href="#">Link</a></p>
+                    <p><a href="#">Link</a></p> -->
+                    {% endfor %}
                 </div>
                 <div class="col-sm-8 text-left" style="overflow:auto">
                     <h1>Welcome to Python : DJango</h1>
