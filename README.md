@@ -16,7 +16,7 @@ Python Basic Web Application
 - 4. Activate it use
     - $source myproject/bin/activate
 
-#Test it : 
+# Test it : 
 **under the "myproject" folder, where manage.py locates, try**
 **To run the Server :** 
 - python manage.py runserver
