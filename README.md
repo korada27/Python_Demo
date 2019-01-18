@@ -1,5 +1,14 @@
 # Python_Demo
-Python Basic Web Application
+Python Basic Web Application with Django Framework
+
+# Basic Introduction : 
+
+- 1. Using the Django authentication system : 
+https://docs.djangoproject.com/en/2.1/topics/auth/default/
+
+- 2. Django Documentation : 
+https://docs.djangoproject.com/en/2.1/
+
 
 
 **I use Django + MongoDB +Django MongoDB Engine**
@@ -20,3 +29,5 @@ Python Basic Web Application
 **under the "myproject" folder, where manage.py locates, try**
 **To run the Server :** 
 - python manage.py runserver
+
+
