@@ -8,7 +8,7 @@ from rest_framework import status
 import logging
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s | %(levelname)s | %(filename)s | %(funcName)s | line_no=%(lineno)d | %(message)s',
-                    filename='C:/Users/miracle/Desktop/mongo_django/mongo_project/myapp.log',
+                    filename='myapp.log',
                     filemode='a')
 
 
