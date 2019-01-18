@@ -2,6 +2,8 @@
 Python Basic Web Application with Django Framework
 
 # Basic Introduction : 
+https://www.django-rest-framework.org/tutorial/quickstart/
+
 
 - 1. Using the Django authentication system : 
 https://docs.djangoproject.com/en/2.1/topics/auth/default/
